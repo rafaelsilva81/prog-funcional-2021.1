@@ -3,3 +3,5 @@ Repositório para atividades da disciplina de Programação Funcional - Semestre
 
 ### Índice de atividades
 [#1](#01)
+[#2](#02)
+[#3](#03)

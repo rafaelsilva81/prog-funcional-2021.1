@@ -1,10 +1,8 @@
 gangorra :: (Ord a, Num a, Num p) => a -> a -> a -> a -> p
-gangorra p1 c1 p2 c2  = 
-    if (p1 * c1) > (p2 * c2)
-        then -1
-    else if (p1 * c1) < (p2 * c2)
-        then 1
-    else 0
+gangorra p1 c1 p2 c2
+  | (p1 * c1) > (p2 * c2) = -1
+  | (p1 * c1) < (p2 * c2) = 1
+  | otherwise = 0
 
 
 main :: IO ()

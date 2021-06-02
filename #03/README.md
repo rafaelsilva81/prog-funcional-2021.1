@@ -1,1 +1,1 @@
-Questões das categorias 03 e 04 do [https://github.com/senapk/funcional_arcade](repositório)
+Questões das categorias 03 e 04 do [Repositório](https://github.com/senapk/funcional_arcade)

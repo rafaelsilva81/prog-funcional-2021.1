@@ -1,6 +1,4 @@
-uniao :: [a] -> [a] -> [a]
-uniao a b = a ++ b
-
+ --TODO
 
 main :: IO ()
 main = do

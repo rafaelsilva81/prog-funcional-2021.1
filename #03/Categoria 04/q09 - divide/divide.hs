@@ -1,3 +1,4 @@
+divide :: [a] -> Int -> ([a], [a])
 divide xs n =
     splitAt n xs
 

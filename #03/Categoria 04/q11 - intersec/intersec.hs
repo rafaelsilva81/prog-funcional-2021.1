@@ -1,4 +1,6 @@
-intersec :: (Foldable t, Eq a) => [a] -> t a -> [a]
+intersec :: Eq a => [a] -> [a] -> [a]
+intersec [] n = [];
+intersec xs [] = [];
 intersec (x:xs) n
     | x `elem` n = x : intersec xs n
     | otherwise = intersec xs n

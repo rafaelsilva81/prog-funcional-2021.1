@@ -1,3 +1,4 @@
+
 uniao :: Eq a => [a] -> [a] -> [a]
 uniao [] ys = ys
 uniao xs [] = xs

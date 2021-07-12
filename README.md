@@ -8,5 +8,5 @@ Semestre 2021.1 UFC Campus Quixadá - Prof. David Sena
 - ### [#3](%2303)
 - ### [#4](%2304)
 - ### [#5](%2305)
-- ### [#6] (A atividade 6 foi apenas uma leitura de um Material)
+- ### #6 (A atividade 6 foi apenas uma leitura de um Material)
 - ### [#7](%2307)

@@ -10,9 +10,3 @@ getPotencia :: (Integral t, Num p, Fractional t) => t -> t -> p
 getPotencia a b
     | a `mod` b == 0 = 1 + getPotencia (a / b) b
     | otherwise = 0
-
-
-main :: IO ()
-main = do
-    a <- readLn :: IO Int
-    print $ factors a

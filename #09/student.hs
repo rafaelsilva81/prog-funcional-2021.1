@@ -59,7 +59,7 @@ devolucao indice codigo armarios =
             if (fst armario == Alugado)
               then Right (Map.insert indice (Livre, codigo) armarios)
               else Left "O Armario nao esta alugado"
-       else Left "Codigo Incorreto"
+    else Left "Codigo Incorreto"
 
 lockers :: Armarios
 lockers =
